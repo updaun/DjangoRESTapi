@@ -1,0 +1,21 @@
+{
+    "bid": 1,
+    "title": "백엔드를 위한 DJANGO REST FRAMEWORK with 파이썬",
+    "author": "권태형",
+    "category": "프로그래밍",
+    "pages": 246,
+    "price": 18000,
+    "published_date": "2022-05-20",
+    "description": "MTV 패턴으로 만드는 REST API"
+}
+
+{
+    "bid": 2,
+    "title": "인공지능 개론",
+    "author": "미입력",
+    "category": "프로그래밍",
+    "pages": 600,
+    "price": 30000,
+    "published_date": "2022-01-01",
+    "description": "Artificial Intelligence"
+}
