@@ -19,9 +19,15 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+from addresses.views import address_list, address, login
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api-auth/', include('rest_framework.urls')),
     path('example/', include('example.urls')),
     path('todo/', include('todo.urls')),
     path('users/', include('users.urls')),
+    path('addresses/', address_list),
+    path('addresses/<int:pk>', address),
+    path('login/', login),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
